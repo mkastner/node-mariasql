@@ -35,7 +35,7 @@ extern "C" {
 #define inline __inline
 #endif
 #else
-#include <alloca.h>
+/* #include <alloca.h> causes build fail on freebsd */
 #endif
 #endif
 
